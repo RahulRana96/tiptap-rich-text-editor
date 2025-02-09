@@ -1,0 +1,28 @@
+.toolbar {
+  background-color: #f0f4f9;
+  padding: 0 8px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toolbar button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-weight: 600;
+  margin: 5px;
+  padding: 7px;
+}
+
+.toolbar button:hover {
+  background-color: #e2e7ea;
+}
+
+.toolbar button svg {
+  vertical-align: text-top;
+}
+
+.toolbar button.is-active {
+  background-color: #d3e3fd;
+}
