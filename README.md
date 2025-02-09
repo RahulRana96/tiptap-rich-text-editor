@@ -13,6 +13,7 @@ Installation & Setup
 Clone the repository:
 
 git clone YOUR_GITHUB_REPO_URL
+
 cd texteditor
 
 Install dependencies:
