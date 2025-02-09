@@ -6,7 +6,11 @@ This project is a React-based rich text editor built using TipTap. It mimics bas
 
 Features
 
-✅ Basic Formatting: Bold, Italic, Underline, Headings, Lists✅ Content Persistence: Save & Load editor content from local storage✅ Custom Extension: for highlighting text✅ Keyboard Shortcuts: Ctrl + B for bold✅ Responsive UI: Editor updates in real-time
+✅ Basic Formatting: Bold, Italic, Underline, Headings, Lists
+✅ Content Persistence: Save & Load editor content from local storage
+✅ Custom Extension: for highlighting text
+✅ Keyboard Shortcuts: Ctrl + B for bold
+✅ Responsive UI: Editor updates in real-time
 
 Installation & Setup
 
@@ -14,7 +18,7 @@ Clone the repository:
 
 git clone YOUR_GITHUB_REPO_URL
 
-cd texteditor
+cd tiptap-rich-text-editor
 
 Install dependencies:
 
@@ -33,20 +37,6 @@ Users can apply formatting via a toolbar or keyboard shortcuts.
 The "Highlight" custom extension highlights marked text.
 
 Content is saved in localStorage and can be reloaded.
-
-File Structure
-
-/texteditor
-│── /src
-│ │── /components
-│ │ ├── Editor.js (Main editor component)
-│ │ ├── Toolbar.js (Formatting toolbar)
-│ │── /extensions
-│ │ ├── Highlight.js (Custom TipTap extension)
-│ ├── App.js (Main entry point)
-│── public/
-│── package.json
-│── README.md
 
 Deployment
 
